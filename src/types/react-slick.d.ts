@@ -1,4 +1,6 @@
 declare module "react-slick"{
-    const Slider:unknown;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const Slider:any;
     export default Slider;
 }
+
